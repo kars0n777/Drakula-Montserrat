@@ -1,0 +1,240 @@
+/* import some stuff */
+@import url("https://discordsnippets.github.io/themes/Dribbblish/import.css");
+@import url("https://discordsnippets.github.io/snippets/Colored%20badges/Colored%20badges.css");
+
+/* Dracula theme + modifications C69 made */
+:root {
+  /* Dracula Colors */
+  --dracula-background: #282a36 !important;
+  --dracula-current-line: #44475a !important;
+  --dracula-selection: #44475a !important;
+  --dracula-foreground: #f8f8f2 !important;
+  --dracula-comment: #6272a4 !important;
+  --dracula-cyan: #8be9fd !important;
+  --dracula-green: #50fa7b !important;
+  --dracula-orange: #ffb86c !important;
+  --dracula-pink: #ff79c6 !important;
+  --dracula-purple: #bd93f9 !important;
+  --dracula-red: #ff5555 !important;
+  --dracula-yellow: #f1fa8c !important;
+  /* Discord Root Colors */
+  --background-primary: var(--dracula-background) !important;
+  --background-secondary: var(--dracula-background) !important;
+  --background-secondary-alt: var(--dracula-background) !important;
+  --background-tertiary: var(--dracula-background) !important;
+  --background-accent: var(--dracula-current-line) !important;
+  --background-floating: var(--dracula-background) !important;
+  --activity-card-background: var(--dracula-background) !important;
+  --interactive-normal: var(--dracula-foreground) !important;
+  --channeltextarea-background: var(--dracula-selection) !important;
+  --rs-online-color: var(--dracula-green) !important;
+  --rs-idle-color: var(--dracula-orange) !important;
+  --rs-dnd-color: var(--dracula-red) !important;
+  --rs-offline-color: var(--dracula-selection) !important;
+  --rs-streaming-color: var(--dracula-purple) !important;
+  --rs-invisible-color: var(--dracula-comment) !important;
+  --interactive-muted: var(--dracula-comment) !important;
+}
+
+.da-acronym {
+  --background-primary: var(--dracula-selection) !important;
+}
+
+.da-repliedMessage {
+    --background-accent: var(--dracula-selection) !important;
+}
+
+.container-1D34oG.da-container {
+  background-color: var(--dracula-background) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--dracula-purple) !important
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: var(--dracula-selection) !important;
+  border: 4px solid var(--dracula-background) !important;
+  border-radius: 8px !important;
+}
+
+/* Syntax Highlighing in Code Blocks*/
+code {
+  color: var(--dracula-foreground) !important
+}
+span.hljs-built_in {
+  color: var(--dracula-purple) !important;
+}
+span.hljs-keyword {
+  color: var(--dracula-pink) !important;
+}
+span.hljs-title {
+  color: var(--dracula-cyan) !important;
+}
+span.hljs-attr {
+  color: var(--dracula-foreground) !important;
+}
+span.hljs-string {
+  color: var(--dracula-yellow) !important;
+}
+span.hljs-number {
+  color: var(--dracula-purple) !important;
+}
+span.hljs-symbol {
+  color: var(--dracula-orange) !important;
+}
+span.hljs-meta {
+  color: var(--dracula-foreground) !important;
+}
+span.hljs-meta-keyword {
+  color: var(--dracula-pink) !important;
+}
+span.hljs-meta-string {
+  color: var(--dracula-orange) !important;
+}
+
+/* Extra Shizz */
+
+* {
+  font-family: "Delugia Nerd Font" !important
+}
+
+.unread-1xRYoj {
+	color: var(--dracula-green);
+}
+
+.closeButton-1tv5uR {
+  color: var(--dracula-purple);
+}
+
+.name-uJV0GL {
+  color: var(--dracula-purple);
+}
+
+.defaultColor-1_ajX0 {
+  color: var(--dracula-purple);
+}
+
+.item-2kk8m {
+  color: var(--dracula-pink);
+}
+
+.name-1jkAdW {
+  color: var(--dracula-purple);
+}
+
+.item-PXvHYJ.themed-OHr7kt {
+  color: var(--dracula-purple);
+}
+
+.homeIcon-FuNwkv {
+  color: var(--dracula-comment);
+}
+
+/* Status Colours (thanks DoggyBootsy for making it) */
+
+[mask^="url(#svg-mask-status-online"] {
+  fill: var(--dracula-green);
+}
+[mask^="url(#svg-mask-status-idle"] {
+  fill: var(--dracula-orange);
+}
+[mask^="url(#svg-mask-status-dnd"] {
+  fill: var(--dracula-red);
+}
+[mask^="url(#svg-mask-status-streaming"] {
+  fill: var(--dracula-purple);
+}
+[mask^="url(#svg-mask-status-offline"] {
+  fill: rgb(116, 127, 141);
+}
+
+/* Garbage that am not gonna fix - C69
+
+IDFK what is this but meh:
+
+.side-8zPYf6 {
+  color: var(--dracula-purple);
+}
+
+
+
+*/
+
+/* Status Scrollbar by Mackenzie */
+.root-SR8cQa .activity-1ythUs {
+  overflow: auto;
+}
+.root-SR8cQa .activity-1ythUs::-webkit-scrollbar {
+  height: 5px;
+}
+.root-SR8cQa .activity-1ythUs::-webkit-scrollbar-track {
+  border-radius: 4px;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.root-SR8cQa .activity-1ythUs::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--header-secondary);
+}
+
+/* Remove the text from the server popup (say Server Boost, Server Settings, etc) by Doggyboostsy */
+#guild-header-popout {
+  width: fit-content;
+}
+#guild-header-popout .scroller-3BxosC, #guild-header-popout [role="group"] {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+}
+#guild-header-popout .scroller-3BxosC .item-1tOPte, #guild-header-popout [role="group"] .item-1tOPte {
+  width: 32px;
+}
+#guild-header-popout .scroller-3BxosC .iconContainer-2-XQPY, #guild-header-popout [role="group"] .iconContainer-2-XQPY {
+  margin: 0;
+  transform: translate(-1px,0);
+}
+#guild-header-popout .scroller-3BxosC .label-22pbtT, #guild-header-popout [role="group"] .label-22pbtT {
+  display: none;
+}
+
+/* Replace the black/gray colour of popups by KayoticCarnige and colour changed by C69 */
+/* Popup Thing :p */
+:root {
+    --popup-color: #bd93f9
+}
+
+.tooltipPrimary-1d1ph4 {
+    background: var(--popup-color) !important;
+}
+
+.tooltipPointer-3ZfirK {
+    border-top-color: var(--popup-color) !important;
+}
+/* Cooler message buttons by Mackenzie */
+.message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9 {
+  margin: 0 2px;
+  border-radius: 5px;
+  background-color: var(--background-tertiary);
+}
+
+.message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9:hover {
+  background-color: var(--background-modifier-selected);
+}
+
+/* Mute icon + text in servers that you're muted by Pukima */
+.muteText-gutGxh {
+  color:var(--dracula-red);
+  margin-top: 3px;
+  margin-left: 1.5px;
+  background: url('https://svgur.com/i/W9K.svg') no-repeat;
+  background-size: 23px;
+}
+
+.muteText-gutGxh::before {
+  content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
+}
+
+
+/* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
