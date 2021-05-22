@@ -1,7 +1,7 @@
 # SeaSixty
 ## Yet another Dracula theme for Discord
 
-![This is SeaSixty](/ast/FrontPage-v1.1.png)
+![This is SeaSixty](/ast/Frontpage-v1.1.png)
 
 # About
 SeaSixty is C69's Personal Theme that can also be used as general theme!
