@@ -36,7 +36,7 @@ For BeautifulDiscord you just install the theme like you normally do. (some snip
 For other clients you'll need to do some shenanigans to make it work, copying the entire source code or doing an @import on Custom CSS normally works; I will **NOT** not offer any support for BetterDiscord (don't use BD) or other clients.
 
 # License
-SeaSixty is licensed under the [Your Mum Gay v2](github.com/citizensixtynine/YMG-v2) license
+SeaSixty is licensed under the [Your Mum Gay v2](https://github.com/citizensixtynine/YMG-v2) license
 
 Some components used in the theme are under the MIT License and Unlicense (Public Domain).
 
