@@ -49,7 +49,7 @@
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--dracula-purple) !important
+  background-color: var(--dracula-selection) !important
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
@@ -124,11 +124,16 @@ span.hljs-meta-string {
 }
 
 .item-PXvHYJ.themed-OHr7kt {
-  color: var(--dracula-purple);
+  color: var(--dracula-foreground);
 }
 
 .homeIcon-FuNwkv {
-  color: var(--dracula-comment);
+  color: var(--dracula-foreground);
+
+}
+
+.size14-e6ZScH.title-eS5yk3 {
+  color: var(--dracula-purple);
 }
 
 /* Status Colours (thanks DoggyBootsy for making it) */
@@ -236,5 +241,112 @@ IDFK what is this but meh:
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
 }
 
+/* Modern Profile Pop-ups by andr0id*/
+.protip-YaFfgO {
+  display: none;
+}
+.headerText-2sdzFM {
+  display: block;
+  position: relative;
+  left: 50px;
+  bottom: 65px;
+  max-height: 0px;
+  max-width: 125px;
+}
+.avatarWrapper-3H_478 {
+  right: 65px;
+  padding: 2px;
+}
+.headerTagWithNickname-3IthZD {
+  max-width: 115px;
+}
+.px-10SIf7.botTag-2WPJ74{
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.customStatus-1bh2V9{
+  margin-top: 0px !important;
+}
+.avatarHint-1qgaV3 {
+  right: 65px;
+  padding: 2px;
+}
+/* Cooler Mentions by andr0id*/
+.wrapper-3WhCwL {
+  color: white;
+  background-color: #2b2b2b;
+  padding-left: 6px;
+  padding-right: 6px;
+  transition: 0.5s;
+}
+.wrapper-3WhCwL:hover {
+  background-color: #0f0f0f;
+  transition: 0.5s;
+}
+
+/* Resizing the Emoji and making it large */  
+.emojiSection-3Fb9ix img {
+  margin: auto;
+  min-width: 80%;
+  height: auto !important;
+}
+/* Resizing the Emoji and making it large End */
+
+/* Text Wrapping */
+.emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
+  flex: wrap;
+  flex-direction: column !important;
+}
+/* Text Wrapping End */
+
+/* Adjusting the text weight and aligning it to center */
+.emojiName-27Bjxw {
+  font-weight: 600;
+  margin-top: 8px;
+  text-align: center;
+}
+/* Adjusting the text weight and aligning it to center End */
+/* Show date of edits by DoggyBootsy */
+.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
+  content:"-(" attr(aria-label) ")";
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* Amogus on settings by vbajs */
+.sidebarRegionScroller-3MXcoP {
+  margin-left: -10.5rem;
+  padding-left: 5rem;
+}
+.sidebarRegionScroller-3MXcoP::before {
+  content: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Ffantendo%2Fimages%2Fc%2Fc0%2FAmongUsCrewmate.png%2Frevision%2Flatest%2Fscale-to-width-down%2F175%3Fcb%3D20200919174512&f=1&nofb=1");
+  transform: rotate(30deg);
+}
+
+/* Make Emote preview thingys bigger by Awish */ 
+/* Resizing the Emoji and making it large */
+.emojiSection-3Fb9ix img {
+  margin: auto;
+  min-width: 80%;
+  height: auto !important;
+}
+/* Resizing the Emoji and making it large End */
+
+/* Text Wrapping */
+.emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
+  flex: wrap;
+  flex-direction: column !important;
+}
+/* Text Wrapping End */
+
+/* Adjusting the text weight and aligning it to center */
+.emojiName-27Bjxw {
+  font-weight: 600;
+  margin-top: 8px;
+  text-align: center;
+}
+/* Adjusting the text weight and aligning it to center End */
 
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
+
+/* Reminder for stuff: https://cdn.discordapp.com/attachments/278340416628326400/844623014088015912/video0.mp4*/
