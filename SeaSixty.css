@@ -132,8 +132,8 @@ span.hljs-meta-string {
 
 }
 
-.size14-e6ZScH.title-eS5yk3 {
-  color: var(--dracula-purple);
+.bodyInnerWrapper-Z8WDxe {
+  color: var(--dracula-foreground);
 }
 
 /* Status Colours (thanks DoggyBootsy for making it) */
@@ -160,6 +160,10 @@ IDFK what is this but meh:
 
 .side-8zPYf6 {
   color: var(--dracula-purple);
+}
+
+.body-3iLsc4 {
+  color: var(--dracula-selection);
 }
 
 
