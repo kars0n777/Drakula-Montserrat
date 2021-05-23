@@ -1,11 +1,7 @@
 # SeaSixty
 ## Yet another Dracula theme for Discord
 
-<<<<<<< Updated upstream
-![This is SeaSixty](/ast/Frontpage-v1.1.png)
-=======
-![This is SeaSixty](/ast/FrontPage-v1.2.png)
->>>>>>> Stashed changes
+![This is SeaSixty](/ast/FrontPage-v1.2.1.png)
 
 # About
 SeaSixty is C69's Personal Theme that can also be used as general theme!
@@ -17,7 +13,7 @@ The "so called modifications" are just some life improvements to make Discord lo
 
 This is a watered down list of modifications, more will come soon!:
 
-1. Change default font to Delugia (its like Cascadia Code + Nerd Fonts + QoL improvements)
+1. Change default font to Cascadia Code
 2. Change default status badge thingy colours
 3. General UI colour changes
 4. Code Blocks have proper Synthax Highlighting

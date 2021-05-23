@@ -1,3 +1,8 @@
+# v1.2.1
+- Changed font to Cascadia Code
+- Tried to switch font to JetBrains Mono but failed
+- This one's for Dillon
+
 # v1.2
 - Yeeted Dribblish to keep me from screaming all day over buttons not being centered properly
 - More colour corrections
