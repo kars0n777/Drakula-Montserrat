@@ -1,3 +1,10 @@
+# v1.2
+- Yeeted Dribblish to keep me from screaming all day over buttons not being centered properly
+- More colour corrections
+- Removed amogus boy, not funny
+- Considering on switching to Fira Code or Jetbrains Mono
+- Added snippet to increase username brightness
+
 # v1.1.1
 - Forgot to change the manifests
 - Also experimenting with Gitkraken to maybe optimize stuff (i guess)

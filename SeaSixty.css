@@ -1,5 +1,4 @@
 /* import some stuff */
-@import url("https://discordsnippets.github.io/themes/Dribbblish/import.css");
 @import url("https://discordsnippets.github.io/snippets/Colored%20badges/Colored%20badges.css");
 
 /* Dracula theme + modifications C69 made */
@@ -120,7 +119,7 @@ span.hljs-meta-string {
 }
 
 .name-1jkAdW {
-  color: var(--dracula-purple);
+  color: var(--dracula-foreground);
 }
 
 .item-PXvHYJ.themed-OHr7kt {
@@ -134,6 +133,14 @@ span.hljs-meta-string {
 
 .bodyInnerWrapper-Z8WDxe {
   color: var(--dracula-foreground);
+}
+
+.label-22pbtT {
+  color: var(--dracula-purple);
+}
+
+.username-1A8OIy, .roleColor-rz2vM0 {
+  filter: brightness(100%);
 }
 
 /* Status Colours (thanks DoggyBootsy for making it) */
@@ -165,8 +172,6 @@ IDFK what is this but meh:
 .body-3iLsc4 {
   color: var(--dracula-selection);
 }
-
-
 
 */
 
@@ -315,16 +320,6 @@ IDFK what is this but meh:
   font-size: 0.625rem;
   font-weight: 400;
   line-height: 1;
-}
-
-/* Amogus on settings by vbajs */
-.sidebarRegionScroller-3MXcoP {
-  margin-left: -10.5rem;
-  padding-left: 5rem;
-}
-.sidebarRegionScroller-3MXcoP::before {
-  content: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Ffantendo%2Fimages%2Fc%2Fc0%2FAmongUsCrewmate.png%2Frevision%2Flatest%2Fscale-to-width-down%2F175%3Fcb%3D20200919174512&f=1&nofb=1");
-  transform: rotate(30deg);
 }
 
 /* Make Emote preview thingys bigger by Awish */ 
