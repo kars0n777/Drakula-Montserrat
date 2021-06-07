@@ -1,3 +1,9 @@
+# v1.3
+- Switched the font to Fira Code due to CCode update
+- Added BetterFriends snippet
+- Added a snippet that removes the text for inventory/nitro/stage/friends in Profile
+- All HTTP text will now appear on red; while HTTPS text will appear on green.  
+
 # v1.2.1
 - Changed font to Cascadia Code
 - Tried to switch font to JetBrains Mono but failed

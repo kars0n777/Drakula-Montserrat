@@ -13,13 +13,14 @@ The "so called modifications" are just some life improvements to make Discord lo
 
 This is a watered down list of modifications, more will come soon!:
 
-1. Change default font to Cascadia Code
+1. Change default font to Fira Code
 2. Change default status badge thingy colours
 3. General UI colour changes
 4. Code Blocks have proper Synthax Highlighting
 5. Scrollbar for long custom statuses
 6. Removing the text from the general server pop-up (its now only icons!)
 7. General pop-ups like Server Names and such colour tuned to fit Dracula
+8. HTTPS and HTTP differentiators!
 8. Other funky stuff 2b added down the line
 
 # How do I install it?

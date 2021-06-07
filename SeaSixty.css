@@ -292,7 +292,7 @@ IDFK what is this but meh:
   transition: 0.5s;
 }
 
-/* Resizing the Emoji and making it large */  
+/* Resizing the Emoji and making it large */
 .emojiSection-3Fb9ix img {
   margin: auto;
   min-width: 80%;
@@ -322,7 +322,7 @@ IDFK what is this but meh:
   line-height: 1;
 }
 
-/* Make Emote preview thingys bigger by Awish */ 
+/* Make Emote preview thingys bigger by Awish */
 /* Resizing the Emoji and making it large */
 .emojiSection-3Fb9ix img {
   margin: auto;
@@ -344,7 +344,107 @@ IDFK what is this but meh:
   margin-top: 8px;
   text-align: center;
 }
-/* Adjusting the text weight and aligning it to center End */
+
+/* BetterFreinds V1 */
+:root{
+--friendblockheight: 80px;
+--csbg: url('https://imgur.com/8twCdCN.jpg');}
+/* Online count */
+.peopleList-3c4jOR .title-30qZAO {
+font-size: 18px;
+text-align: center;
+line-height: 40px;
+height: var(--friendblockheight);
+border-radius: 8px;
+background-color: var(--background-tertiary);}
+[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO {
+padding-left: 30px;
+color: #43B581;
+height: var(--friendblockheight)}
+[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO:before {
+content: "";
+position: absolute;
+margin-left: -32px;
+margin-top: 13px;
+width: 14px;
+height: 14px;
+background-color: #43B581;
+border-radius: 50%;}
+/* Background */
+.avatar-3W3CeO.wrapper-3t9DeA:before {
+content: '';
+position: absolute;
+top: -20px;
+left: -25px;
+min-width: 585px;
+height: var(--friendblockheight) !important;
+z-index: -1;
+opacity: 0.3;
+background: var(--csbg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+.userInfo-2zN2z8 {
+background-color: var(--background-tertiary);
+border-radius: 8px;
+padding: 8px;
+margin-left: 6px;}
+/* Buttons */
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {border-radius: 8px;}
+/* Fuck Borders */
+.peopleListItem-2nzedh {
+border-top: 0px solid var(--background-modifier-accent);}
+/* tajmahal? / Bruh / Why is this here? */
+.userInfo-2zN2z8, .actions-1SQwjn {position: relative; z-index: 1;}
+
+/* Remove inventory/nitro/stage text */
+#private-channels > [class*="content-"] {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) {
+    flex-grow: 1;
+    margin-top: 8px !important;
+    margin-left: 0;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]):first-of-type {
+    margin-left: 8px !important;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="layout-"] {
+    justify-content: center;
+    padding: 0 !important;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="avatar-"] {
+    margin: 0 !important;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="content-"] {
+    display: none;
+}
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="children-"] {
+    position: absolute;
+    transform: translate(4px, 8px);
+    box-shadow: 0 0 0 3px var(--background-secondary);
+    border-radius: 100px;
+}
+#private-channels > [class*="content-"] > h2 {
+    width: 100%;
+}
+#private-channels > [class*="content-"] > a[href*="/channels/@me/"] {
+    width: 100%;
+}
+
+/*http link as red*/
+
+a[href^="http://"] {
+  color: var(--dracula-red);
+}
+
+/*https link as red*/
+
+a[href^="https://"] {
+  color: var(--dracula-green);
+}
 
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
 
