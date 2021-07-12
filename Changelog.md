@@ -1,3 +1,9 @@
+# v2
+- We have a new name
+- New readme
+- New code snippets
+- Currently in process of getting into the GooseMod store!
+
 # v1.3
 - Switched the font to Fira Code due to CCode update
 - Added BetterFriends snippet
