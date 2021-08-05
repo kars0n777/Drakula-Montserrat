@@ -1,4 +1,8 @@
 /* Dracula theme + modifications C69 made */
+
+/* Fira Code font itself */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 :root {
   /* Dracula Colors */
   --dracula-background: #282a36 !important;
