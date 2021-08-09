@@ -1,3 +1,9 @@
+# v2.1
+- Nolonger necesary to install Fira Code (thanks Diyachan)
+- Added the snipped that Fixes the small button on RPC stuff (you know the one)
+- Emojis from Custom Statuses are now centered on the middle of the profile (if you click on it ofc)
+- Added the snippet that makes the options buttons rainbows
+
 # v2
 - We have a new name
 - New readme
