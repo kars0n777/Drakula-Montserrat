@@ -96,7 +96,7 @@ span.hljs-meta-string {
 /* Extra Shizz */
 
 * {
-  font-family: "Cascadia Code" !important
+  font-family: "Cascadia Code", sans-serif, !important;
 }
 
 .unread-1xRYoj {
