@@ -1,7 +1,8 @@
 /* Dracula theme + modifications C69 made */
 
-/* Cascadia font itself */
-@import url('http://fonts.cdnfonts.com/css/cascadia-code');
+/* Fira Code font itself */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 
 :root {
   /* Dracula Colors */
@@ -96,7 +97,7 @@ span.hljs-meta-string {
 /* Extra Shizz */
 
 * {
-  font-family: "Cascadia Code", sans-serif, !important;
+  font-family: "Fira Code" !important;
 }
 
 .unread-1xRYoj {
@@ -627,6 +628,27 @@ a[href^="https://"] {
     flex-shrink: 0;
 }
 
+/* fix the friends list colours by c69 */
+.peopleList-3c4jOR.auto-Ge5KZx.scrollerBase-289Jih {
+  color: var(--dracula-background);
+  background-color: var(--dracula-background);
+}
+
+/* fix the community section piece of by c69 */
+.scroller-1d5FgU .auto-Ge5KZx .scrollerBase-289Jih{
+  color: var(--dracula-background);
+  background-color: var(--dracula-background);
+}
+
+.div-root-1gCeng.small-3iVZYw.fullScreenOnMobile-1bD22y{
+  color: var(--dracula-background);
+  background-color: var(--dracula-background);
+}
+
+.footerButton-ayFTfX .button-38aScr{
+  color: var(--dracula-purple);
+}
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
 
 /* Reminder for stuff: https://cdn.discordapp.com/attachments/278340416628326400/844623014088015912/video0.mp4*/
+
