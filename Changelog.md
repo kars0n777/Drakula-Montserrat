@@ -1,3 +1,8 @@
+# v3 (part one)
+- Changed license to avoid legal issues
+- Removed some snippets
+- Added some snippets
+
 # v2.1
 - Nolonger necesary to install Fira Code (thanks Diyachan)
 - Added the snipped that Fixes the small button on RPC stuff (you know the one)
