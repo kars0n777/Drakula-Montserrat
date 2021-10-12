@@ -35,6 +35,6 @@ If you're using Powercord do this:
 If you're using another client mod (say BeautifulDiscord, Vizality, etc), Install the theme like you usually do, just note that I will ***not*** be offering any support for other clients not mentioned above.
 
 # License
-SeaSixty is licensed under the [Your Mum Gay v2](https://github.com/citizensixtynine/YMG-v2) license
+Drakula is licensed under the [MIT license](https://mit-license.org).
 
-Some components used in the theme are under the MIT License and Unlicense (Public Domain).
+Some components used are part of the Public Domain.

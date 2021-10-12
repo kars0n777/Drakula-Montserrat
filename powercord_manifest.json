@@ -1,8 +1,8 @@
 {
     "name": "Drakula",
     "description": "Yet Another Dracula theme for Discord",
-    "version": "3",
-    "author": "citizensixtynine#1337",
+    "version": "3.0.1",
+    "author": "cmexicanmcflurry#1337",
     "theme": "Drakula.css",
     "license": "MIT"
 }
