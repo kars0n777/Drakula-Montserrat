@@ -1,3 +1,7 @@
+# v3.1
+- Fixing stuff due to discontinuation
+- Might remove anti-cornering due to issues with recent client updates
+
 # v3 (part one)
 - Changed license to avoid legal issues
 - Removed some snippets
