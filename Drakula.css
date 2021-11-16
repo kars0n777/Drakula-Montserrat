@@ -37,30 +37,23 @@
   --interactive-muted: var(--dracula-comment) !important;
 }
 
-:root * {
-  border-radius: 0 !important;
-}
-
 .da-acronym {
   --background-primary: var(--dracula-selection) !important;
 }
 
 .da-repliedMessage {
-  --background-accent: var(--dracula-selection) !important;
+    --background-accent: var(--dracula-selection) !important;
 }
 
 .container-1D34oG.da-container {
   background-color: var(--dracula-background) !important;
 }
 
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: var(--dracula-selection) !important;
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--dracula-selection) !important
 }
 
-.theme-dark
-  .scrollerThemed-2oenus.themedWithTrack-q8E3vB
-  .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
   background-color: var(--dracula-selection) !important;
   border: 4px solid var(--dracula-background) !important;
   border-radius: 8px !important;
@@ -68,7 +61,7 @@
 
 /* Syntax Highlighing in Code Blocks*/
 code {
-  color: var(--dracula-foreground) !important;
+  color: var(--dracula-foreground) !important
 }
 span.hljs-built_in {
   color: var(--dracula-purple) !important;
@@ -108,7 +101,7 @@ span.hljs-meta-string {
 }
 
 .unread-1xRYoj {
-  color: var(--dracula-green);
+	color: var(--dracula-green);
 }
 
 .closeButton-1tv5uR {
@@ -137,6 +130,7 @@ span.hljs-meta-string {
 
 .homeIcon-FuNwkv {
   color: var(--dracula-foreground);
+
 }
 
 .bodyInnerWrapper-Z8WDxe {
@@ -147,8 +141,7 @@ span.hljs-meta-string {
   color: var(--dracula-purple);
 }
 
-.username-1A8OIy,
-.roleColor-rz2vM0 {
+.username-1A8OIy, .roleColor-rz2vM0 {
   filter: brightness(100%);
 }
 
@@ -206,38 +199,34 @@ IDFK what is this but meh:
 #guild-header-popout {
   width: fit-content;
 }
-#guild-header-popout .scroller-3BxosC,
-#guild-header-popout [role="group"] {
+#guild-header-popout .scroller-3BxosC, #guild-header-popout [role="group"] {
   display: flex;
   flex-direction: row;
   -webkit-box-orient: horizontal;
 }
-#guild-header-popout .scroller-3BxosC .item-1tOPte,
-#guild-header-popout [role="group"] .item-1tOPte {
+#guild-header-popout .scroller-3BxosC .item-1tOPte, #guild-header-popout [role="group"] .item-1tOPte {
   width: 32px;
 }
-#guild-header-popout .scroller-3BxosC .iconContainer-2-XQPY,
-#guild-header-popout [role="group"] .iconContainer-2-XQPY {
+#guild-header-popout .scroller-3BxosC .iconContainer-2-XQPY, #guild-header-popout [role="group"] .iconContainer-2-XQPY {
   margin: 0;
-  transform: translate(-1px, 0);
+  transform: translate(-1px,0);
 }
-#guild-header-popout .scroller-3BxosC .label-22pbtT,
-#guild-header-popout [role="group"] .label-22pbtT {
+#guild-header-popout .scroller-3BxosC .label-22pbtT, #guild-header-popout [role="group"] .label-22pbtT {
   display: none;
 }
 
 /* Replace the black/gray colour of popups by KayoticCarnige and colour changed by C69 */
 /* Popup Thing :p */
 :root {
-  --popup-color: #bd93f9;
+    --popup-color: #bd93f9
 }
 
 .tooltipPrimary-1d1ph4 {
-  background: var(--popup-color) !important;
+    background: var(--popup-color) !important;
 }
 
 .tooltipPointer-3ZfirK {
-  border-top-color: var(--popup-color) !important;
+    border-top-color: var(--popup-color) !important;
 }
 /* Cooler message buttons by Mackenzie */
 .message-2qnXI6 .wrapper-2aW0bm .button-1ZiXG9 {
@@ -252,10 +241,10 @@ IDFK what is this but meh:
 
 /* Mute icon + text in servers that you're muted by Pukima */
 .muteText-gutGxh {
-  color: var(--dracula-red);
+  color:var(--dracula-red);
   margin-top: 3px;
   margin-left: 1.5px;
-  background: url("https://svgur.com/i/W9K.svg") no-repeat;
+  background: url('https://svgur.com/i/W9K.svg') no-repeat;
   background-size: 23px;
 }
 
@@ -282,10 +271,10 @@ IDFK what is this but meh:
 .headerTagWithNickname-3IthZD {
   max-width: 115px;
 }
-.px-10SIf7.botTag-2WPJ74 {
+.px-10SIf7.botTag-2WPJ74{
   background-color: rgba(255, 255, 255, 0.438);
 }
-.customStatus-1bh2V9 {
+.customStatus-1bh2V9{
   margin-top: 0px !important;
 }
 .avatarHint-1qgaV3 {
@@ -314,8 +303,7 @@ IDFK what is this but meh:
 /* Resizing the Emoji and making it large End */
 
 /* Text Wrapping */
-.emojiSection-3Fb9ix > .noWrap-3jynv6,
-.emojiSection-3Fb9ix {
+.emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
   flex: wrap;
   flex-direction: column !important;
 }
@@ -329,11 +317,8 @@ IDFK what is this but meh:
 }
 /* Adjusting the text weight and aligning it to center End */
 /* Show date of edits by DoggyBootsy */
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe)
-  .markup-2BOw-j
-  .timestampInline-yHQ6fX
-  > [aria-label]::after {
-  content: "-(" attr(aria-label) ")";
+.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j .timestampInline-yHQ6fX>[aria-label]::after{
+  content:"-(" attr(aria-label) ")";
   font-size: 0.625rem;
   font-weight: 400;
   line-height: 1;
@@ -349,8 +334,7 @@ IDFK what is this but meh:
 /* Resizing the Emoji and making it large End */
 
 /* Text Wrapping */
-.emojiSection-3Fb9ix > .noWrap-3jynv6,
-.emojiSection-3Fb9ix {
+.emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
   flex: wrap;
   flex-direction: column !important;
 }
@@ -365,66 +349,50 @@ IDFK what is this but meh:
 
 /* Remove inventory/nitro/stage text */
 #private-channels > [class*="content-"] {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 #private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) {
-  flex-grow: 1;
-  margin-top: 8px !important;
-  margin-left: 0;
+    flex-grow: 1;
+    margin-top: 8px !important;
+    margin-left: 0;
 }
-#private-channels
-  > [class*="content-"]
-  > a:not([href*="/channels/@me/"]):first-of-type {
-  margin-left: 8px !important;
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]):first-of-type {
+    margin-left: 8px !important;
 }
-#private-channels
-  > [class*="content-"]
-  > a:not([href*="/channels/@me/"])
-  [class*="layout-"] {
-  justify-content: center;
-  padding: 0 !important;
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="layout-"] {
+    justify-content: center;
+    padding: 0 !important;
 }
-#private-channels
-  > [class*="content-"]
-  > a:not([href*="/channels/@me/"])
-  [class*="avatar-"] {
-  margin: 0 !important;
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="avatar-"] {
+    margin: 0 !important;
 }
-#private-channels
-  > [class*="content-"]
-  > a:not([href*="/channels/@me/"])
-  [class*="content-"] {
-  display: none;
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="content-"] {
+    display: none;
 }
-#private-channels
-  > [class*="content-"]
-  > a:not([href*="/channels/@me/"])
-  [class*="children-"] {
-  position: absolute;
-  transform: translate(4px, 8px);
-  box-shadow: 0 0 0 3px var(--background-secondary);
-  border-radius: 100px;
+#private-channels > [class*="content-"] > a:not([href*="/channels/@me/"]) [class*="children-"] {
+    position: absolute;
+    transform: translate(4px, 8px);
+    box-shadow: 0 0 0 3px var(--background-secondary);
+    border-radius: 100px;
 }
 #private-channels > [class*="content-"] > h2 {
-  width: 100%;
+    width: 100%;
 }
 #private-channels > [class*="content-"] > a[href*="/channels/@me/"] {
-  width: 100%;
+    width: 100%;
 }
 
 /*http link as red*/
 
-a[href^="http://"]
-{
+a[href^="http://"] {
   color: var(--dracula-red);
 }
 
 /*https link as red*/
 
-a[href^="https://"]
-{
+a[href^="https://"] {
   color: var(--dracula-green);
 }
 
@@ -441,6 +409,7 @@ a[href^="https://"]
   border-radius: 25px;
   height: 0px !important;
   background: transparent !important;
+  
 }
 
 .none-2Eo-qx::-webkit-scrollbar-thumb {
@@ -450,140 +419,121 @@ a[href^="https://"]
 
 /* Remove your phone number from settings by Mackenzie */
 .accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf {
-  --no-phone-number-text: "Nothing to see here!";
+  --no-phone-number-text: 'Nothing to see here!';
   color: transparent;
 }
 .accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf::before {
   color: var(--header-primary);
-  content: var(--no-phone-number-text, "1-800-SUSSY");
+  content: var(--no-phone-number-text, '1-800-SUSSY');
 }
-.accountProfileCard-1XCH88
-  .field-1HUseB:last-child
-  .size16-1P40sf
-  > .lookLink-9FtZy- {
+.accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf > .lookLink-9FtZy- {
   transform: translateX(-88px);
 }
 
 /* fix that pesky activities bug by Davri */
-.assetsLargeMaskVoiceChannel-2k1oGM {
-  -webkit-mask-size: cover;
-}
+.assetsLargeMaskVoiceChannel-2k1oGM {-webkit-mask-size: cover;}
 
 /* Center the emoji the status while on profile by botato */
-.customStatus-oN4ZZY
-  > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
-  margin-right: auto;
-  margin-left: auto;
+.customStatus-oN4ZZY > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 /* nebula user popout by heckbound */
 :root {
-  --primary-rounding: 5px;
-  --primary-spacing: 10px;
-  --secondary-spacing: 20px;
-  --secondary-rounding: 10px;
+     --primary-rounding: 5px;
+     --primary-spacing: 10px;
+     --secondary-spacing: 20px;
+     --secondary-rounding: 10px;
 }
-.userPopout-xaxa6l {
-  background-color: var(--background-secondary-alt);
-  border-radius: var(--primary-rounding);
+ .userPopout-xaxa6l {
+     background-color: var(--background-secondary-alt);
+     border-radius: var(--primary-rounding);
 }
-.userPopout-xaxa6l .headerNormal-3KXFBt {
-  margin: var(--primary-spacing);
-  margin-bottom: 0 !important;
+ .userPopout-xaxa6l .headerNormal-3KXFBt {
+     margin: var(--primary-spacing);
+     margin-bottom: 0 !important;
 }
-.userPopout-xaxa6l .headerNormal-3KXFBt .banner-2QYc2d {
-  background-color: var(--background-secondary) !important;
-  border-radius: var(--primary-rounding);
-  height: 120px;
-  width: 100%;
+ .userPopout-xaxa6l .headerNormal-3KXFBt .banner-2QYc2d {
+     background-color: var(--background-secondary) !important;
+     border-radius: var(--primary-rounding);
+     height: 120px;
+     width: 100%;
 }
-.userPopout-xaxa6l .headerNormal-3KXFBt .bannerPremium-2hSAwz {
-  filter: brightness(0.3);
+ .userPopout-xaxa6l .headerNormal-3KXFBt .bannerPremium-2hSAwz {
+     filter: brightness(0.3);
 }
-.userPopout-xaxa6l .avatarWrapper-3r9PdD {
-  left: var(--secondary-spacing);
-  top: var(--secondary-spacing);
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD {
+     left: var(--secondary-spacing);
+     top: var(--secondary-spacing);
 }
-.userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim {
-  background-color: transparent;
-  border-radius: var(--primary-rounding);
-  height: 99px !important;
-  width: 90px !important;
-  border: none;
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim {
+     background-color: transparent;
+     border-radius: var(--primary-rounding);
+     height: 99px !important;
+     width: 90px !important;
+     border: none;
 }
-.userPopout-xaxa6l
-  .avatarWrapper-3r9PdD
-  .avatar-37jOim
-  .mask-1l8v16
-  foreignObject {
-  mask: none;
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 foreignObject {
+     mask: none;
 }
-.userPopout-xaxa6l
-  .avatarWrapper-3r9PdD
-  .avatar-37jOim
-  .mask-1l8v16
-  foreignObject
-  .avatar-VxgULZ {
-  background-color: var(--background-primary);
-  border-radius: var(--primary-rounding);
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 foreignObject .avatar-VxgULZ {
+     background-color: var(--background-primary);
+     border-radius: var(--primary-rounding);
 }
-.userPopout-xaxa6l
-  .avatarWrapper-3r9PdD
-  .avatar-37jOim
-  .mask-1l8v16
-  .pointerEvents-2zdfdO {
-  user-select: none !important;
-  ry: var(--primary-rounding);
-  height: 16px !important;
-  width: 16px !important;
-  mask: none;
-  x: 60;
-  y: 60;
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 .pointerEvents-2zdfdO {
+     user-select: none !important;
+     ry: var(--primary-rounding);
+     height: 16px !important;
+     width: 16px !important;
+     mask: none;
+     x: 60;
+     y: 60;
 }
-.userPopout-xaxa6l .avatarWrapper-3r9PdD .avatarHint-2A3RNb {
-  border-radius: var(--primary-rounding);
-  height: 99px;
-  width: 99px;
-  left: 0;
-  top: 0;
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatarHint-2A3RNb {
+     border-radius: var(--primary-rounding);
+     height: 99px;
+     width: 99px;
+     left: 0;
+     top: 0;
 }
-.userPopout-xaxa6l .avatarWrapper-3r9PdD .avatarHint-2A3RNb foreignObject {
-  mask: none;
+ .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatarHint-2A3RNb foreignObject {
+     mask: none;
 }
-.userPopout-xaxa6l .headerTop-3vNv-a {
-  padding: var(--secondary-spacing) 0 0 0;
-  right: var(--primary-spacing);
-  position: absolute;
-  height: 100px;
-  width: 171px;
+ .userPopout-xaxa6l .headerTop-3vNv-a {
+     padding: var(--secondary-spacing) 0 0 0;
+     right: var(--primary-spacing);
+     position: absolute;
+     height: 100px;
+     width: 171px;
 }
-.userPopout-xaxa6l .headerTop-3vNv-a .profileBadges-ohc0Vu {
-  right: var(--primary-spacing);
-  top: unset;
-  bottom: 0;
+ .userPopout-xaxa6l .headerTop-3vNv-a .profileBadges-ohc0Vu {
+     right: var(--primary-spacing);
+     top: unset;
+     bottom: 0;
 }
-.userPopout-xaxa6l .headerTop-3vNv-a .headerText-1vVs-U {
-  padding-left: var(--primary-spacing);
+ .userPopout-xaxa6l .headerTop-3vNv-a .headerText-1vVs-U {
+     padding-left: var(--primary-spacing);
 }
-.userPopout-xaxa6l .body-3HBlXn {
-  background-color: var(--background-secondary);
-  border-radius: var(--primary-rounding);
-  margin: var(--primary-spacing);
-  max-height: 400px;
-  padding: 10px;
+ .userPopout-xaxa6l .body-3HBlXn {
+     background-color: var(--background-secondary);
+     border-radius: var(--primary-rounding);
+     margin: var(--primary-spacing);
+     max-height: 400px;
+     padding: 10px;
 }
-.userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
-  background-color: var(--background-tertiary);
-  border-radius: var(--primary-rounding);
-  padding: 6px;
+ .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
+     background-color: var(--background-tertiary);
+     border-radius: var(--primary-rounding);
+     padding: 6px;
 }
-.userPopout-xaxa6l .footer-3UKYOU {
-  background-color: var(--background-secondary);
-  border-radius: var(--primary-rounding);
-  margin: var(--primary-spacing);
-  margin-top: 0 !important;
-  padding: 16px;
+ .userPopout-xaxa6l .footer-3UKYOU {
+     background-color: var(--background-secondary);
+     border-radius: var(--primary-rounding);
+     margin: var(--primary-spacing);
+     margin-top: 0 !important;
+     padding: 16px;
 }
 
 /* extended user panel (looks amazing btw) by ADudeCalledLeo */
@@ -604,7 +554,7 @@ a[href^="https://"]
 
 /* stops community server icons from shrinking on the emoji popouts by Davri */
 .guildSection-1EoFKd > .flex-1xMQg5 > svg {
-  flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 /* fix the friends list colours by c69 */
@@ -614,19 +564,20 @@ a[href^="https://"]
 }
 
 /* fix the community section piece of by c69 */
-.scroller-1d5FgU .auto-Ge5KZx .scrollerBase-289Jih {
+.scroller-1d5FgU .auto-Ge5KZx .scrollerBase-289Jih{
   color: var(--dracula-background);
   background-color: var(--dracula-background);
 }
 
-.div-root-1gCeng.small-3iVZYw.fullScreenOnMobile-1bD22y {
+.div-root-1gCeng.small-3iVZYw.fullScreenOnMobile-1bD22y{
   color: var(--dracula-background);
   background-color: var(--dracula-background);
 }
 
-.footerButton-ayFTfX .button-38aScr {
+.footerButton-ayFTfX .button-38aScr{
   color: var(--dracula-purple);
 }
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
 
 /* Reminder for stuff: https://cdn.discordapp.com/attachments/278340416628326400/844623014088015912/video0.mp4 */
+
