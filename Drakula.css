@@ -1,4 +1,27 @@
-/* Dracula theme + modifications C69 made */
+/* 
+Drakula 3.2 - The See You Space Cowboy Update
+This is Drakula's last "mainstream" update, please report (mayor) UX breaking bugs to citizensixtynine@protonmail.org
+
+Original codebase made by Zeno Rocha for the Dracula project
+Modifications made by Kris Pineda
+
+This project would have never been possible without the help of the following developers and contributors:
+- Zeno Rocha
+- DoggyBootsy
+- Mackenzie
+- Pukima
+. andr0id
+- KayoticCarnige
+- botato
+- Skullbite
+- ADudeCalledLeo
+- I Won The Game
+- LordMZTE
+- diyachan
+
+Drakula is licensed under the MIT license, you can read more about it at mit-license.org and in the LICENSE file on the Drakula repository
+*/
+
 
 /* Fira Code font itself */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
@@ -417,21 +440,6 @@ a[href^="https://"] {
   border-radius: 25px;
 }
 
-/* Remove your phone number from settings by Mackenzie */
-.accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf {
-  --no-phone-number-text: 'Nothing to see here!';
-  color: transparent;
-}
-.accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf::before {
-  color: var(--header-primary);
-  content: var(--no-phone-number-text, '1-800-SUSSY');
-}
-.accountProfileCard-1XCH88 .field-1HUseB:last-child .size16-1P40sf > .lookLink-9FtZy- {
-  transform: translateX(-88px);
-}
-
-/* fix that pesky activities bug by Davri */
-.assetsLargeMaskVoiceChannel-2k1oGM {-webkit-mask-size: cover;}
 
 /* Center the emoji the status while on profile by botato */
 .customStatus-oN4ZZY > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
@@ -439,8 +447,7 @@ a[href^="https://"] {
     margin-left: auto;
 }
 
-
-/* nebula user popout by heckbound */
+/* nebula user popout by Skullbite */
 :root {
      --primary-rounding: 5px;
      --primary-spacing: 10px;
@@ -577,7 +584,17 @@ a[href^="https://"] {
 .footerButton-ayFTfX .button-38aScr{
   color: var(--dracula-purple);
 }
+
+/* Remove the background colour thing from the profile popout (only works on colours, not images or GIFs) by I Won The Game */
+.popoutBanner-19WKGg {
+  background-color: var(--background-floating) !important;
+}
+
+.profileBanner-33-uE1 {
+  background-color: var(--background-floating) !important;
+}
+
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
 
-/* Reminder for stuff: https://cdn.discordapp.com/attachments/278340416628326400/844623014088015912/video0.mp4 */
+/* Thanks for everything, it was fun to work on this. -C69 */
 

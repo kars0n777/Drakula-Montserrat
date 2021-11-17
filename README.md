@@ -1,23 +1,22 @@
-This project has been discontinued, it will only recieve updates for updates that Discord may do to their platform that may break parts of the code.
-
-Powercord support will be dropped in 3.2 because Powercord is trash (well, the devs; the codebase is ok ig), use Goosemod or Cumcord.
+# **This project has been discontinued, it will only recieve updates for updates that Discord may do to their platform that may break parts of the code.**
+## **Due to this, please don't email me or contact me to fix this unless there is a bug that may disrupt the user experience**
 
 ---
 
 # Drakula
 ## Yet another Dracula theme for Discord
 
-![Picture taken with Goosemod and some mods](/ast/FrontPage-v3.png "Drakula 3.2")
+![Drakula v3.2 running in Goosemod alongside some other mods](/ast/FrontPage-v3.png)
 
 # About
-This is Drakula, a Discord theme that focuses on delivering the best user experience while maintaining as much vanilla elements as possible.
+This is Drakula, a Discord theme that focuses on delivering a comfortable user experience to users that may be accustomed to using terminals for their communication needs (say through SDF, IRC, Email, etc) while maintaining as many vanilla elements from the original Discord client as possible.
 
-Drakula is a fork of [Zeno Rocha's Dracula BetterDiscord theme](https://github.com/dracula/betterdiscord) with mods and snippets to make it as minimalistic and cozy as possible. This culminates in one of the dumbest Discord themes out there. 
+Drakula is a fork of [Zeno Rocha's Dracula BetterDiscord theme](https://github.com/dracula/betterdiscord) with mods and snippets to make it as minimalistic and cozy as possible for terminal users that want to use Discord while having a familiar workspace.
 
 # Added modifications
-The following mods to Discord have been added for your pleasure:
+The following mods to Discord have been added for your own pleasure:
 
-1. Change default font to Fira Code (you can change this through CustomCSS if you don't like it)
+1. Change default font to Fira Code
 2. Change default status badge thingy colours
 3. General UI colour changes
 4. Code Blocks have proper Synthax Highlighting
@@ -27,13 +26,26 @@ The following mods to Discord have been added for your pleasure:
 8. HTTPS and HTTP differentiators!
 
 # Installation
-Installing Drakula is pretty simple and intuitive, just follow these steps for your mod:
+Installing Drakula is pretty simple and intuitive, just follow these steps for your mod of choice:
 
-If you're using GooseMod, just search up for Drakula in your "Themes" section and hit "Import"
+If you're using GooseMod (recommended), just search up for Drakula in your "Themes" section and hit "Import"
 
-If you're using another client mod (say BeautifulDiscord, Vizality, Powercord, etc), Install the theme like you usually do, just note that I will ***not*** be offering any support for other clients not mentioned above.
+If you're using BeautifulDiscord, just run `beautifuldiscord --css (place where ur repo is)/Drakula/Drakula.css` (remember to replace the "place where ur repo is" part).
+
+If you're using another client mod (say BetterDiscord, Vizality, Powercord, Astra etc), Install the theme like you usually do, just note that I will ***not*** be offering any support for other clients not mentioned above.
 
 # License
 Drakula is licensed under the [MIT license](https://mit-license.org).
 
 Some components used are part of the Public Domain.
+
+# Notes
+Due to how GooseMod works, the `powercord_manifest.json` file is still on the repostiory. You're still allowed to use Powercord but note that if something breaks or anything, I'll not offer any kind of support unless its something that may affect other supported client mods (BeautifulDiscord or GooseMod).
+
+Due to my incompetence as a developer that isn't really a developer, the following things are not colored properly/are broken:
+- Switch Accounts popup
+- Explore Public Servers section
+- Add Server popup
+- Changelog popouts (Goosemod, Powercord, Discord and other clients)
+- Join Hypesquad quiz
+- A bunch of popout thingies that I forgot

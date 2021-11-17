@@ -1,9 +1,16 @@
+# v3.2 - See You Space Cowboy (LTS Release)
+- Added a proper comment header to the .css file
+- Added a snippet that removes the custom profile colour thing (doesn't work if there is an image or GIF)
+- Removed Powercord support (Theme still works but no support will be given)
+- Removed Anti-Cornering due to issues with latest Discord update
+- Too lazy to fix anything coloring related, feel free to submit a pull request and fix them.
+
 # v3.1
-- Fixing stuff due to discontinuation
+- Fixing stuff due to upcoming discontinuation
 - Might remove anti-cornering due to issues with recent client updates
 
 # v3 (part one)
-- Changed license to avoid legal issues
+- Changed license to avoid legal issues with the Dracula dev team
 - Removed some snippets
 - Added some snippets
 
