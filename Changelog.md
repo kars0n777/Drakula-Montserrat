@@ -1,3 +1,6 @@
+# Forked from Drakula 3.2
+- Different font
+
 # v3.2 - See You Space Cowboy (LTS Release)
 - Added a proper comment header to the .css file
 - Added a snippet that removes the custom profile colour thing (doesn't work if there is an image or GIF)

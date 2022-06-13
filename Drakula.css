@@ -23,8 +23,8 @@ Drakula is licensed under the MIT license, you can read more about it at mit-lic
 */
 
 
-/* Fira Code font itself */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+/* Montserrat font itself */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 :root {
@@ -120,7 +120,7 @@ span.hljs-meta-string {
 /* Extra Shizz */
 
 * {
-  font-family: "Fira Code" !important;
+  font-family: "Montserrat" !important;
 }
 
 .unread-1xRYoj {
@@ -597,4 +597,3 @@ a[href^="https://"] {
 /* Thanks to everyone who contributed their CSS Snipets and Themes for this theme, ik i'll never be able to credit you without being cringe but hey! Atleast this footnote serves of something.... right? */
 
 /* Thanks for everything, it was fun to work on this. -C69 */
-

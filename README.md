@@ -16,7 +16,7 @@ Drakula is a fork of [Zeno Rocha's Dracula BetterDiscord theme](https://github.c
 # Added modifications
 The following mods to Discord have been added for your own pleasure:
 
-1. Change default font to Fira Code
+1. Change default font to Montserrat 
 2. Change default status badge thingy colours
 3. General UI colour changes
 4. Code Blocks have proper Synthax Highlighting
